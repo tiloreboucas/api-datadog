@@ -21,3 +21,9 @@
   Consider adding dd-agent to the docker group to enable the docker support, run:
 
       sudo usermod -a -G docker dd-agent
+
+---
+
+## Docker
+
+docker run -d --name pgadmin -e PGADMIN_DEFAULT_EMAIL=admin@admin.com -e PGADMIN_DEFAULT_PASSWORD=admin -p 8080:80 dpage/pgadmin4

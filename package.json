@@ -11,6 +11,7 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "@prisma/client": "^5.21.1",
     "dd-trace": "^5.24.0",
     "express": "^4.21.1",
     "ipinfo-express": "^2.0.2"
